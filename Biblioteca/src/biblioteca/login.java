@@ -75,10 +75,30 @@ public class login extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel1.setText("Contraseña");
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\jose\\Desktop\\Sin título-1.jpg")); // NOI18N
+        jLabel2.setIcon(new javax.swing.JLabel() {
+            public javax.swing.Icon getIcon() {
+                try {
+                    return new javax.swing.ImageIcon(
+                        new java.net.URL("http://1.bp.blogspot.com/-Ntq4MhUFfqM/VxYod459NCI/AAAAAAAAADI/gQdNp-Qpu-Yai9O-sX4P-0R7bce0c5cgwCK4B/s1600/Sin%2Bt%25C3%25ADtulo-1.jpg")
+                    );
+                } catch (java.net.MalformedURLException e) {
+                }
+                return null;
+            }
+        }.getIcon());
         jLabel2.setText("jLabel2");
 
-        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\jose\\Desktop\\biblio.jpg")); // NOI18N
+        jLabel3.setIcon(new javax.swing.JLabel() {
+            public javax.swing.Icon getIcon() {
+                try {
+                    return new javax.swing.ImageIcon(
+                        new java.net.URL("http://3.bp.blogspot.com/-6DU1m9msxsw/VxYod_e_eXI/AAAAAAAAADE/5WYpmfF4LaESgwBGBb0sJvzBMgveP-FKQCK4B/s1600/biblio.jpg")
+                    );
+                } catch (java.net.MalformedURLException e) {
+                }
+                return null;
+            }
+        }.getIcon());
         jLabel3.setText("jLabel3");
 
         jButton1.setText("¿Olvidaste tu contraseña?");
