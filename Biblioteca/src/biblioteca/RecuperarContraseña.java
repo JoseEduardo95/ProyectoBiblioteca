@@ -51,7 +51,7 @@ public class RecuperarContraseña extends javax.swing.JFrame {
             }
         });
 
-        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\jose\\Desktop\\biblio.jpg")); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\jose\\Documents\\GitHub\\ProyectoBiblioteca\\biblio.jpg")); // NOI18N
         jLabel3.setText("jLabel3");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
