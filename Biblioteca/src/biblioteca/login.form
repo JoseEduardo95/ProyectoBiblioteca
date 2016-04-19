@@ -159,7 +159,7 @@
         <Component class="javax.swing.JLabel" name="jLabel2">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\jose\Desktop\Sin t&#xed;tulo-1.jpg"/>
+              <Image iconType="1" name="http://1.bp.blogspot.com/-Ntq4MhUFfqM/VxYod459NCI/AAAAAAAAADI/gQdNp-Qpu-Yai9O-sX4P-0R7bce0c5cgwCK4B/s1600/Sin%2Bt%25C3%25ADtulo-1.jpg"/>
             </Property>
             <Property name="text" type="java.lang.String" value="jLabel2"/>
           </Properties>
@@ -167,7 +167,7 @@
         <Component class="javax.swing.JLabel" name="jLabel3">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\jose\Desktop\biblio.jpg"/>
+              <Image iconType="1" name="http://3.bp.blogspot.com/-6DU1m9msxsw/VxYod_e_eXI/AAAAAAAAADE/5WYpmfF4LaESgwBGBb0sJvzBMgveP-FKQCK4B/s1600/biblio.jpg"/>
             </Property>
             <Property name="text" type="java.lang.String" value="jLabel3"/>
           </Properties>

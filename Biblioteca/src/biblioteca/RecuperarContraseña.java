@@ -51,7 +51,17 @@ public class RecuperarContraseña extends javax.swing.JFrame {
             }
         });
 
-        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\jose\\Desktop\\biblio.jpg")); // NOI18N
+        jLabel3.setIcon(new javax.swing.JLabel() {
+            public javax.swing.Icon getIcon() {
+                try {
+                    return new javax.swing.ImageIcon(
+                        new java.net.URL("http://3.bp.blogspot.com/-6DU1m9msxsw/VxYod_e_eXI/AAAAAAAAADE/5WYpmfF4LaESgwBGBb0sJvzBMgveP-FKQCK4B/s1600/biblio.jpg")
+                    );
+                } catch (java.net.MalformedURLException e) {
+                }
+                return null;
+            }
+        }.getIcon());
         jLabel3.setText("jLabel3");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
