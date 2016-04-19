@@ -75,10 +75,10 @@ public class login extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel1.setText("Contraseña");
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\jose\\Documents\\GitHub\\ProyectoBiblioteca\\Sin título-1.jpg")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\jose\\Desktop\\Sin título-1.jpg")); // NOI18N
         jLabel2.setText("jLabel2");
 
-        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\jose\\Documents\\GitHub\\ProyectoBiblioteca\\biblio.jpg")); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\jose\\Desktop\\biblio.jpg")); // NOI18N
         jLabel3.setText("jLabel3");
 
         jButton1.setText("¿Olvidaste tu contraseña?");
