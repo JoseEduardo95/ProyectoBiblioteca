@@ -48,7 +48,7 @@
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="1" attributes="0">
-                              <Component id="jLabel3" min="-2" pref="435" max="-2" attributes="0"/>
+                              <Component id="bannerUV" min="-2" pref="435" max="-2" attributes="0"/>
                               <Group type="103" alignment="1" groupAlignment="0" attributes="0">
                                   <Component id="txtpwd" alignment="0" min="-2" pref="129" max="-2" attributes="0"/>
                                   <Component id="txtNombre" min="-2" pref="129" max="-2" attributes="0"/>
@@ -61,7 +61,7 @@
                       </Group>
                   </Group>
                   <EmptySpace pref="189" max="32767" attributes="0"/>
-                  <Component id="jLabel2" min="-2" pref="185" max="-2" attributes="0"/>
+                  <Component id="iconoUV" min="-2" pref="185" max="-2" attributes="0"/>
               </Group>
               <Group type="102" attributes="0">
                   <Group type="103" groupAlignment="0" attributes="0">
@@ -91,11 +91,11 @@
               <Group type="102" alignment="1" attributes="0">
                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
                       <Group type="102" attributes="0">
-                          <Component id="jLabel3" min="-2" pref="73" max="-2" attributes="0"/>
+                          <Component id="bannerUV" min="-2" pref="73" max="-2" attributes="0"/>
                           <EmptySpace max="32767" attributes="0"/>
                           <Component id="label1" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <Component id="jLabel2" min="-2" pref="135" max="-2" attributes="0"/>
+                      <Component id="iconoUV" min="-2" pref="135" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace min="-2" max="-2" attributes="0"/>
                   <Component id="txtNombre" max="-2" attributes="0"/>
@@ -107,7 +107,7 @@
                   <Component id="jCheckBox1" min="-2" max="-2" attributes="0"/>
                   <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
                   <Component id="botonAceptar" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace pref="73" max="32767" attributes="0"/>
+                  <EmptySpace pref="74" max="32767" attributes="0"/>
                   <Component id="jButton1" min="-2" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="87" max="-2" attributes="0"/>
               </Group>
@@ -156,7 +156,7 @@
             <Property name="text" type="java.lang.String" value="Contrase&#xf1;a"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="jLabel2">
+        <Component class="javax.swing.JLabel" name="iconoUV">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
               <Image iconType="1" name="http://1.bp.blogspot.com/-Ntq4MhUFfqM/VxYod459NCI/AAAAAAAAADI/gQdNp-Qpu-Yai9O-sX4P-0R7bce0c5cgwCK4B/s1600/Sin%2Bt%25C3%25ADtulo-1.jpg"/>
@@ -164,7 +164,7 @@
             <Property name="text" type="java.lang.String" value="jLabel2"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="jLabel3">
+        <Component class="javax.swing.JLabel" name="bannerUV">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
               <Image iconType="1" name="http://3.bp.blogspot.com/-6DU1m9msxsw/VxYod_e_eXI/AAAAAAAAADE/5WYpmfF4LaESgwBGBb0sJvzBMgveP-FKQCK4B/s1600/biblio.jpg"/>
