@@ -100,7 +100,9 @@ public class BusquedaUsuarioParaPrestamo extends javax.swing.JFrame {
 
   private void btnBuscarPersonaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBuscarPersonaActionPerformed
     if (txtFMatriculaONumeroDePersonal.getText() != ""){
-      
+       PerfilParaPrestar perfil = new PerfilParaPrestar();
+       perfil.setVisible(true);
+       dispose();
     }
   }//GEN-LAST:event_btnBuscarPersonaActionPerformed
 
