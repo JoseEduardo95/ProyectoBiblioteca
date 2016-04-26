@@ -1,16 +1,16 @@
 CREATE TABLE contacto (
   idcontacto INT NOT NULL AUTO_INCREMENT,
-  proveedor_idProveedor INT NOT NULL,
   nombre VARCHAR(255) NULL,
   email VARCHAR(255) NULL,
   telefono NUMERIC NULL,
   estado VARCHAR(20) NULL,
-  PRIMARY KEY(idcontacto),
-  INDEX contacto_FKIndex1(proveedor_idProveedor)
+  empresa VARCHAR(255) NULL,
+  PRIMARY KEY(idcontacto)
 );
 
 CREATE TABLE material (
   idFolio INT NOT NULL AUTO_INCREMENT,
+  multa_idMulta INT NOT NULL,
   prestamo_idprestamo INT NOT NULL,
   tipoMaterial_idTipoMaterial INT NOT NULL,
   editorial VARCHAR(255) NULL,
@@ -20,14 +20,16 @@ CREATE TABLE material (
   precio FLOAT NULL,
   PRIMARY KEY(idFolio),
   INDEX Material_FKIndex1(tipoMaterial_idTipoMaterial),
-  INDEX material_FKIndex2(prestamo_idprestamo)
+  INDEX material_FKIndex2(prestamo_idprestamo),
+  INDEX material_FKIndex3(multa_idMulta)
 );
 
 CREATE TABLE multa (
-  usuario_idusuario VARCHAR(20) NOT NULL,
   idMulta INT NOT NULL AUTO_INCREMENT,
+  usuario_idusuario VARCHAR(20) NOT NULL,
   cantidad FLOAT NULL,
   estado VARCHAR(20) NULL,
+  PRIMARY KEY(idMulta),
   INDEX multa_FKIndex1(usuario_idusuario)
 );
 
@@ -39,17 +41,6 @@ CREATE TABLE prestamo (
   fechaEntrega DATE NULL,
   PRIMARY KEY(idprestamo),
   INDEX prestamo_FKIndex1(usuario_idusuario)
-);
-
-CREATE TABLE proveedor (
-  idProveedor INT NOT NULL AUTO_INCREMENT,
-  razonSocial VARCHAR(45) NULL,
-  rfc VARCHAR(45) NULL,
-  fechaIngreso DATE NULL,
-  direccion VARCHAR(255) NULL,
-  nombreEmpresa VARCHAR(255) NULL,
-  emailEmpresa VARCHAR(255) NULL,
-  PRIMARY KEY(idProveedor)
 );
 
 CREATE TABLE tipoMaterial (
@@ -70,8 +61,9 @@ CREATE TABLE usuario (
   nombre VARCHAR(255) NULL,
   direccion VARCHAR(255) NULL,
   email VARCHAR(255) NULL,
-  telefono INT NULL,
+  telefono VARCHAR(15) NULL,
   contrasena VARCHAR(20) NULL,
+  estado BOOL NULL,
   PRIMARY KEY(idusuario),
   INDEX usuario_FKIndex1(tipoUsuario_idTipoUsuario)
 );
